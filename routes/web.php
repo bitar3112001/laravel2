@@ -29,3 +29,7 @@ Route::get('test3',function(){
 Route::get("test4",function(){
     return "hhh";
 });
+
+Route::get("funcky",function(){
+    return "hhh";
+});
