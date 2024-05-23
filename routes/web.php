@@ -36,7 +36,7 @@ Route::get("test4",function(){
 
 Route::get("funcky",function(){
     return "hhh";
-
+});
 
 
 Route::get('test3',function(){
@@ -51,6 +51,9 @@ Route::get('ttt',function(){
 
 Route::get("test4",function(){
     return "hhh";
+});
+Route::get("teneWahad",function(){
+    return "helloooo0";
 });
 
 
