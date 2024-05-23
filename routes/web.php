@@ -52,6 +52,9 @@ Route::get('ttt',function(){
 Route::get("test4",function(){
     return "hhh";
 });
+Route::get("teneWahad",function(){
+    return "helloooo0";
+});
 
 Route::get("awalWahd",function(){
     return "hckjasjdjksahh";
