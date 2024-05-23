@@ -19,6 +19,17 @@ Route::get('/', function () {
 Route::get('/test2',function(){
     return view('welcome');
 });
+
+
+
+Route::get("test6",function(){
+    return 'bye';
+});
+
 Route::get('test3',function(){
     return 'hello';
+});
+
+Route::get('ttt',function(){
+    return 'dsadas';
 });
