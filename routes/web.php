@@ -20,24 +20,26 @@ Route::get('/test2',function(){
     return view('welcome');
 });
 
-Route::get('test3',function(){
-    return 'hello';
-});
 
-
-Route::get('test3',function(){
-    return 'hello';
-});
 
 
 Route::get("test6",function(){
     return 'bye';
 });
+
+
 Route::get('test3',function(){
     return 'hello';
 });
+
+Route::get('ttt',function(){
+    return 'dsadas';
+});
+
+
 Route::get("test4",function(){
     return "hhh";
 });
+
 
 
